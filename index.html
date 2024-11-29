@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ga{
+            background-color: aquamarine;
+            padding: 10px;
+            display: grid;
+            grid-template-areas: 
+            "area1 area2 area3"
+            "area4 area6 area6"
+            "area5 area6 area6";
+            grid-template-rows: 45px 45px 45px;
+            gap: 5px;
+            text-align: center;
+            
+        }
+        .v1{
+            background-color: blanchedalmond;
+            grid-area: area1;
+        }
+        .v2{
+            background-color: lightcoral;
+            grid-area: area2;
+        }
+        .v3{
+            background-color: violet;
+            grid-area: area3;
+        }
+        .v4{
+              background-color: lightgrey; 
+              grid-area: area4; 
+         }
+        .v5{
+                background-color: lightsalmon;
+                grid-area: area5;
+        }
+        .v6{
+            background-color: lightseagreen;
+            grid-area: area6;
+        }
+        .ga1{
+            background-color: lightsalmon;
+            padding: 5px;
+            display: grid;
+            grid-template-areas:
+             "sub1 sub2  sub2 sub2 sub3"
+             "sub1 sub4 sub5 sub6 sub6"
+             "sub1 sub7 sub8 sub6 sub6";
+             grid-template-rows: 90px 90px 90px 50px;
+             /* grid-template-columns: 200px; */
+             gap: 10px;
+             text-align: center;
+
+        }
+        .a1{
+            background-color: blueviolet;
+            grid-area: sub1;
+        }
+        .a2{
+            background-color: brown;
+            grid-area: sub2;
+        }
+        .a3{
+            background-color: cadetblue;
+            grid-area: sub3;
+        }
+        .a4{
+            background-color: chocolate;
+            grid-area: sub4;
+        }
+        .a5{
+            background-color: aquamarine;
+            grid-area: sub5;
+        }
+        .a6{
+            background-color: cornflowerblue;
+            grid-area: sub6;
+        }
+        .a7{
+            background-color: blanchedalmond;
+            grid-area: sub7;
+        }
+        .a8{
+            background-color: crimson;
+            grid-area: sub8;
+        }
+        .ga2{
+            background-color: lightgreen;
+            padding: 10px;
+            display: grid;
+            grid-template-areas: 
+            "place1 place2 place2 place3 place4 place5"
+            "place6 place7 place7 place7 place4 place5"
+            "place6 place7 place7 place7 place4 place5";
+            gap: 10px;
+            grid-template-rows: 90px 60px 50px 30px;
+            padding: 20px;
+            text-align: center;
+        }
+        .p1{
+            background-color: blue;
+            grid-area: place1;
+        }
+        .p2{
+            background-color: violet;
+            grid-area: place2;
+        }
+        .p3{
+            background-color: darkcyan;
+            grid-area: place3;
+        }
+        .p4{
+            background-color: darkolivegreen;
+            grid-area: place4;
+        }
+        .p5{
+            background-color: darkmagenta;
+            grid-area: place5;
+        }
+        .p6{
+            background-color: darkgrey;
+            grid-area: place6;
+        }
+        .p7{
+            background-color: darkslateblue;
+            grid-area: place7;
+        }
+       #g1{
+         border: 3px solid black;
+          text-align: center;
+          box-shadow: 0px 0px 10px;
+       }
+       #g2{
+        border: 3px solid black;
+        text-align: center;
+        box-shadow: 0px 0px 10px;
+       }
+       #g3{
+        border: 3px solid black;
+        text-align: center;
+        box-shadow: 0px 0px 10px;
+       }
+    </style>
+</head>
+<body>
+    <h1 id="g1">Grid layout 1</h1>
+    <div class="ga">
+        <div class="v1">hima</div>
+        <div class="v2">varsha</div>
+        <div class="v3">nithisha</div>
+        <div class="v4">lavanya</div>
+        <div class="v5">sai</div>
+        <div class="v6">sumanth</div>
+    </div>
+    <h1 id="g2">Grid Layout 2</h1>
+    <div class="ga1">
+        <div class="a1">physics</div>
+        <div class="a2">chemistry</div>
+        <div class="a3">maths</div>
+        <div class="a4">biology</div>
+        <div class="a5">zology</div>
+        <div class="a6">history</div>
+        <div class="a7">hindi</div>
+        <div class="a8">sanskrit</div>
+    </div>
+    <h1 id="g3">Grid layout 3</h1>
+    <div class="ga2">
+        <div class="p1">Paris</div>
+        <div class="p2">Kerala</div>
+        <div class="p3">Araku</div>
+        <div class="p4">Vizag</div>
+        <div class="p5">Rajhamundry</div>
+        <div class="p6">Shiridi</div>
+        <div class="p7">Trupathi</div>
+        <!-- <div class="p8">Vrindavan</div> -->
+    </div>
+</body>
+</html>
